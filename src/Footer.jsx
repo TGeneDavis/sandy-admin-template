@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { LinkContainer } from 'react-router-bootstrap';
+
 
 class Footer extends Component {
   constructor(props) {
@@ -17,29 +19,29 @@ class Footer extends Component {
             <div className="col-6 col-md">
               <h5>Tools</h5>
               <ul className="list-unstyled text-small">
-                <li><a className="text-muted" href="/">Cool tool</a></li>
-                <li><a className="text-muted" href="/">Random tool</a></li>
-                <li><a className="text-muted" href="/">Team tool</a></li>
-                <li><a className="text-muted" href="/">Tools for People</a></li>
-                <li><a className="text-muted" href="/">Another tool</a></li>
+                <li><LinkContainer to="/"><a className="text-muted" href="/">Cool tool</a></LinkContainer></li>
+                <li><LinkContainer to="/"><a className="text-muted" href="/">Random tool</a></LinkContainer></li>
+                <li><LinkContainer to="/"><a className="text-muted" href="/">Team tool</a></LinkContainer></li>
+                <li><LinkContainer to="/"><a className="text-muted" href="/">Tools for People</a></LinkContainer></li>
+                <li><LinkContainer to="/"><a className="text-muted" href="/">Another tool</a></LinkContainer></li>
               </ul>
             </div>
             <div className="col-6 col-md">
               <h5>See also</h5>
               <ul className="list-unstyled text-small">
-                <li><a className="text-muted" href="/">This</a></li>
-                <li><a className="text-muted" href="/">That one</a></li>
-                <li><a className="text-muted" href="/">Yet another that</a></li>
-                <li><a className="text-muted" href="/">Finally ...</a></li>
+                <li><LinkContainer to="/"><a className="text-muted" href="/">This</a></LinkContainer></li>
+                <li><LinkContainer to="/"><a className="text-muted" href="/">That one</a></LinkContainer></li>
+                <li><LinkContainer to="/"><a className="text-muted" href="/">Yet another that</a></LinkContainer></li>
+                <li><LinkContainer to="/"><a className="text-muted" href="/">Finally ...</a></LinkContainer></li>
               </ul>
             </div>
             <div className="col-6 col-md">
               <h5>About</h5>
               <ul className="list-unstyled text-small">
-                <li><a className="text-muted" href="/">Our Team</a></li>
-                <li><a className="text-muted" href="/">Find us</a></li>
-                <li><a className="text-muted" href="/">Privacy</a></li>
-                <li><a className="text-muted" href="/">Terms</a></li>
+                <li><LinkContainer to="/"><a className="text-muted" href="/">Our Team</a></LinkContainer></li>
+                <li><LinkContainer to="/"><a className="text-muted" href="/">Find us</a></LinkContainer></li>
+                <li><LinkContainer to="/"><a className="text-muted" href="/">Privacy</a></LinkContainer></li>
+                <li><LinkContainer to="/about"><a className="text-muted" href="/about">About</a></LinkContainer></li>
               </ul>
             </div>
           </div>

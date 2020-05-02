@@ -1,19 +1,43 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+
 import Header from './Header';
 import Footer from './Footer';
 
+import About from './pages/About';
 import Features from './pages/Features';
+import Tools from './pages/Tools';
+import Prices from './pages/Prices';
 
 function App() {
   return (
     <div className="App">
+    <Router>
 
       <Header />
 
-      <Features />
+      <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/prices">
+            <Prices />
+          </Route>
+          <Route path="/tools">
+            <Tools />
+          </Route>
+          <Route path="/">
+            <Features />
+          </Route>
+        </Switch>
 
       <Footer />
 
+    </Router>
     </div>
   );
 }

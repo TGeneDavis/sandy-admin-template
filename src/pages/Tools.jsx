@@ -7,64 +7,16 @@ class Tools extends Component {
   }
   render() { 
     return ( 
-      <>
+      <div className="m-5">
 
       <div className="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-      <h1 className="display-4">Pricing</h1>
+      <h1 className="display-4">Tools</h1>
       <p className="lead">Lorem ipsum dolor sit amet. Et facilis expedita a voluptate voluptatem sit nesciunt ratione? Quo tempora ullam vel iste assumenda et recusandae Quis ut perspiciatis quaerat ea debitis quibusdam aut vitae distinctio.</p>
       </div>
+      <p>Sed perspiciatis ullam aut deserunt ullam At cumque quos a officia officia. Aut incidunt commodi quo minus esse aut porro inventore ut eaque minima eos voluptatem adipisci. Ut unde distinctio et velit minus ex veniam rerum ut culpa voluptas est pariatur labore quo obcaecati rerum qui rerum veniam. Quo odit quisquam et incidunt consequuntur est dignissimos praesentium et corporis praesentium in impedit sequi sit nisi tempore.</p>
+      <p>Lorem ipsum dolor sit amet. Et facilis expedita a voluptate voluptatem sit nesciunt ratione? Quo tempora ullam vel iste assumenda et recusandae Quis ut perspiciatis quaerat ea debitis quibusdam aut vitae distinctio. Et quos tempore ea praesentium eius qui voluptate recusandae et ipsa quia! Aut quia magni quo reprehenderit dolore At aperiam voluptatum At voluptatum beatae eos magnam sunt aut minima cumque!</p>
 
-      <div className="container">
-        <div className="card-deck mb-3 text-center">
-          <div className="card mb-4 shadow-sm">
-            <div className="card-header">
-              <h4 className="my-0 font-weight-normal">Free</h4>
-            </div>
-            <div className="card-body">
-              <h1 className="card-title pricing-card-title">$0 <small className="text-muted">/ mo</small></h1>
-              <ul className="list-unstyled mt-3 mb-4">
-                <li>42 users included</li>
-                <li>7 GB of storage</li>
-                <li>Email ipsum</li>
-                <li>Et facilis expedita</li>
-              </ul>
-              <button type="button" className="btn btn-lg btn-block btn-outline-primary">Quis ut</button>
-            </div>
-          </div>
-          <div className="card mb-4 shadow-sm">
-            <div className="card-header">
-              <h4 className="my-0 font-weight-normal">Pro</h4>
-            </div>
-            <div className="card-body">
-              <h1 className="card-title pricing-card-title">$16 <small className="text-muted">/ mo</small></h1>
-              <ul className="list-unstyled mt-3 mb-4">
-                <li>42 users included</li>
-                <li>7 GB of storage</li>
-                <li>Email ipsum</li>
-                <li>Et facilis expedita</li>
-              </ul>
-              <button type="button" className="btn btn-lg btn-block btn-primary">Perspiciatis quaerat</button>
-            </div>
-          </div>
-          <div className="card mb-4 shadow-sm">
-            <div className="card-header">
-              <h4 className="my-0 font-weight-normal">Enterprise</h4>
-            </div>
-            <div className="card-body">
-              <h1 className="card-title pricing-card-title">$32 <small className="text-muted">/ mo</small></h1>
-              <ul className="list-unstyled mt-3 mb-4">
-                <li>42 users included</li>
-                <li>7 GB of storage</li>
-                <li>Email ipsum</li>
-                <li>Et facilis expedita</li>
-              </ul>
-              <button type="button" className="btn btn-lg btn-block btn-primary">Tuibusdam</button>
-            </div>
-          </div>
-          </div>
-        </div>
-
-      </> 
+      </div> 
     );
   }
 }
