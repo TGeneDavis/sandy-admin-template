@@ -33,6 +33,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Includes
 
+* [Font Awesome 5](https://github.com/FortAwesome/react-fontawesome)
+
 * [Sandstone](https://bootswatch.com/) theme used under MIT License.
 
 * Parts used from [react-director-admin-template](https://github.com/MacKentoch/react-director-admin-template) used under MIT License.
