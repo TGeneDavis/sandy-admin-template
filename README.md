@@ -37,4 +37,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 * [Sandstone](https://bootswatch.com/) theme used under MIT License.
 
-* Parts used from [react-director-admin-template](https://github.com/MacKentoch/react-director-admin-template) used under MIT License.
