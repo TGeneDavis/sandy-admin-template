@@ -1,5 +1,5 @@
 # sandy-admin-template
-Admin template using react-router-bootstrap, using React contexts instead of Redux. Created using create-react-app.
+Admin template using react-router-bootstrap, and React contexts instead of Redux. Created using create-react-app. Uses React contexts, free Font Awesome fonts, and Bootstrap 4.
 
 ## Purpose
 I spent days looking for a free, opensource, SPA, admin template for a couple of projects that I needed one for. I couldn't find one that used the ReactJS technology stack that I needed, so I made my own. Feel free to use this to bootstart your own projects. If you have code improvements or updates that you want to add, fork this and create a pull request back into this project.
@@ -30,4 +30,8 @@ The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Includes
+
+* [Sandstone](https://bootswatch.com/) theme used under MIT License.
 
