@@ -5,6 +5,8 @@ import {
   Route,
 } from "react-router-dom";
 
+import UserContextProvider from './context/UserContextProvider';
+
 import Header from './Header';
 import Footer from './Footer';
 
@@ -17,6 +19,7 @@ import Login from './pages/Login';
 function App() {
   return (
     <div className="App">
+    <UserContextProvider>
     <Router>
 
       <Header />
@@ -42,6 +45,7 @@ function App() {
       <Footer />
 
     </Router>
+    </UserContextProvider>
     </div>
   );
 }
