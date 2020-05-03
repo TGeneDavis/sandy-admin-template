@@ -22,7 +22,7 @@ class Header extends Component {
             <LinkContainer to="/tools"><Nav.Link className="mr-2 text-light" href="/">Tools</Nav.Link></LinkContainer>
             <LinkContainer to="/about"><Nav.Link className="mr-2 text-light" href="/">About</Nav.Link></LinkContainer>
           </Nav>
-          <Button className="px-3" variant="outline-light">Login</Button>
+          <LinkContainer to="/login"><Button className="px-3" variant="outline-light">Login</Button></LinkContainer>
         </Navbar.Collapse>
       </Navbar>
     </>

@@ -37,6 +37,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 * [Sandstone](https://bootswatch.com/) theme used under MIT License.
 
-* Used Sample Code from [https://github.com/BlackrockDigital/startbootstrap-landing-page](https://github.com/BlackrockDigital/startbootstrap-landing-page), used under MIT License.
+* Used Sample Code from [https://github.com/BlackrockDigital/startbootstrap-landing-page](https://github.com/BlackrockDigital/startbootstrap-landing-page). Used under MIT License.
+
+* Used Sample Code from [Bootsnip](https://bootsnipp.com/snippets/GaZG0). Used under MIT License.
 
 
